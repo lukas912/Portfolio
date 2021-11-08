@@ -1,0 +1,33 @@
+html {
+    font-family: 'Indie Flower', cursive;
+}
+
+.parallax-container {
+    height: 500px;
+  }
+
+.parallax-image {
+    width: 100%;
+}
+
+.parallax-title {
+    margin-top: 150px;
+    font-size: 55px;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.21);
+}
+
+.me {
+    width: 150px;
+    border-radius: 50%;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: rgb(255, 255, 255);
+    background: #ffbeaa;
+  }
+  
+  ::selection {
+    color: rgb(255, 255, 255);
+    background: #ffbeaa;
+  }
