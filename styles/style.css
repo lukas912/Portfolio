@@ -14,7 +14,7 @@ html {
     margin-top: 150px;
     font-size: 55px;
     color: white;
-    text-shadow: 2px 2px 2px rgba(0,0,0,0.21);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.541);
 }
 
 .me {
@@ -24,14 +24,18 @@ html {
 
 ::-moz-selection { /* Code for Firefox */
     color: rgb(255, 255, 255);
-    background: #ffbeaa;
+    background: #fb095b;
   }
   
   ::selection {
     color: rgb(255, 255, 255);
-    background: #ffbeaa;
+    background: #fb095b;
   }
 
 .pc2 {
-    height: 200px;
+    height: 300px;
+}
+
+.determinate {
+  background-color: #fb095b !important;
 }
